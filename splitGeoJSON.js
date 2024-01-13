@@ -173,7 +173,6 @@ objGeoJSON.features.forEach((fitur, indeks) => {
     id: indeks + 1,
     kode: indeks + 1,
     nama_daerah: fitur.properties.NAMOBJ,
-    jumlah_budaya: fitur.properties.jumlah_budaya || 1,
     REMARK: fitur.properties.REMARK,
   };
 
